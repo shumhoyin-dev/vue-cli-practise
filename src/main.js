@@ -5,6 +5,7 @@ import {
 import { required, email, min } from '@vee-validate/rules';
 import { localize, setLocale } from '@vee-validate/i18n';
 import zhTW from '@vee-validate/i18n/dist/locale/zh_TW.json';
+// import ja from '@vee-validate/i18n/dist/locale/ja.json';
 import App from './App.vue';
 import router from './router';
 

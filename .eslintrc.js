@@ -18,5 +18,10 @@ module.exports = {
     'comma-dangle': 'off',
     'vue/multi-word-component-names': 'off',
 
+    "vuejs-accessibility/label-has-for": ["error", {
+      "required": {
+        "some": ["nesting", "id"]
+      }
+    }]
   },
 };
